@@ -1,0 +1,866 @@
+[
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_network_key_setting.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_network_key_setting.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_mesh_info.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_mesh_info.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_group.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_group.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_main_tab_text.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\main_tab_text.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_qrcode_scan.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_qrcode_scan.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_setting.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\setting.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_header.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_device_select_mesh_ota.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_device_select_mesh_ota.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_log_info.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_log_info.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_setting.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\setting.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_cmd_input.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_cmd_input.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_mesh_ota_test.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_mesh_ota_test.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bulb.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_bulb.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_down.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_arrow_down.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_setting.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_device_setting.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mesh_ota_complete.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_mesh_ota_complete.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_oob_info.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_oob_info.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_check.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\check.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_device_scan.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\device_scan.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_empty.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_empty.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_warn_click.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\warn_click.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_timer.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_timer.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_check.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_oob_info.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_oob_info.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_group.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_group.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_bottom_tab_single_not_selected.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\icon_bottom_tab_single_not_selected.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_share.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_fragment_device_timer.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\fragment_device_timer.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_simple_device.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_simple_device.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_img_logo.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\img_logo.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_light_on.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\icon_light_on.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_mesh_key_info.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_mesh_key_info.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mesh_ota_fail.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_mesh_ota_fail.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bulb_off.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_bulb_off.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_oob_info.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\oob_info.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_connect_test.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_connect_test.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_back.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_white_radius_bg.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\white_radius_bg.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_share_tip.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\share_tip.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file_select_right.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_file_select_right.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bridge.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_bridge.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_scene.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_scene.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_more_unfold.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\more_unfold.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_qrcode_scan.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_qrcode_scan.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_timer.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_timer.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sequence_number.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_sequence_number.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_scheduler_setting.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_scheduler_setting.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_mesh_test.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_mesh_test.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_device_provision_bak.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_device_provision_bak.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_view_dialog_waiting.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\view_dialog_waiting.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_delay_time.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_delay_time.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_minus.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_minus.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_open.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_open.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bulb_offline.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_bulb_offline.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_tab_device.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\tab_device.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_scene.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_scene.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_share.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_share.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file_unchecked.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_file_unchecked.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_oob_edit.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_oob_edit.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_message_assemble.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\message_assemble.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_right.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_net_key.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_net_key.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_connection_test.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_connection_test.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_folder.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_folder.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_top_tab_add.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\icon_top_tab_add.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_direction.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_direction.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_net_key_info.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_net_key_info.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_simple_text.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_simple_text.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bulb_on_half.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_bulb_on_half.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_bridging_table.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_bridging_table.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bulb_on.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_bulb_on.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_share_tip.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_share_tip.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_left.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_arrow_left.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_fragment_setting.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_null.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_null.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_fragment_share_import.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\fragment_share_import.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_setting_tab.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\setting_tab.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_file.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_file.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_common_list.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\common_list.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_file_select.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_file_select.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_top_tab_back.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\icon_top_tab_back.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_mesh_ota.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_mesh_ota.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_key_value.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_key_value.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bluetooth.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\bluetooth.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_layout_color_cps.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\layout_color_cps.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_group_name.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_group_name.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_node_net_key.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_node_net_key.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_message_assemble.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_message_assemble.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_adv_device_list.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_adv_device_list.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_circle_2.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_add_circle_2.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_send.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_send.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_composition.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_composition.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_app_key_info.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_app_key_info.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_bottom_tab_group_not_selected.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\icon_bottom_tab_group_not_selected.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_id.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_id.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_subnet_bridge.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_subnet_bridge.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_device_provision.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_device_provision.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_share_qrcode.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_share_qrcode.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_model_list.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_model_list.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_model.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_model.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_bottom_navigation.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\bottom_navigation.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_model_setting.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_model_setting.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_setting_model.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_setting_model.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_circle.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_add_circle.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_to_root.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_to_root.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_scheduler.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\scheduler.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file_search.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_file_search.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_group_select.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_group_select.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_up.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_arrow_up.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_color_panel.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_color_panel.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_file_popup_info.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\file_popup_info.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_bridging_table_add.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_bridging_table_add.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_actionbar_indeterminate_progress.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_scene_setting.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_scene_setting.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_right.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\icon_right.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_net_key.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\net_key.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_title.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\title.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_alarm.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_alarm.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_light_offline.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\icon_light_offline.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_composition_data.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_composition_data.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_fragment_device_control.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\fragment_device_control.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_qrcode.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_qrcode.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_iv_index.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_iv_index.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_bottom_tab_group_selected.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\icon_bottom_tab_group_selected.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_file_search.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_file_search.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_time.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_time.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_group_setting.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_group_setting.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_file_select.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\file_select.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_on_off_test.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_on_off_test.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_debug.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_debug.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_fragment_device_select.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\fragment_device_select.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_oob_info.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_oob_info.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_fragment_group.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\fragment_group.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_setting.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_setting.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_fragment_device_setting.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\fragment_device_setting.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_device_group.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_device_group.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_fragment_share_export.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\fragment_share_export.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sad.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_sad.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_device_select.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_device_select.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_number_1.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_number_1.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_bottom_tab_single_selected.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\icon_bottom_tab_single_selected.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_adv.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\adv.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_provision.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_device_provision.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_network.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_network.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_lpn_setting.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_lpn_setting.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_publish.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_publish.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file_dots.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_file_dots.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_local_address.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_local_address.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file_select_left.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_file_select_left.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_switch.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_switch.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_device_setting.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\device_setting.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_tab_group.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\tab_group.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_light_off.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\icon_light_off.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_device_tab.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\device_tab.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_warn.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_warn.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_timer_dialog.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_timer_dialog.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_low_power.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_low_power.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_device_auto_provision.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_device_auto_provision.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_copy.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_copy.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_keys.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_keys.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_name.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_name.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_tip.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_tip.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file_checked.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_file_checked.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_plus.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_plus.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cert.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_cert.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_number_2.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_number_2.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_common_list.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_common_list.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_scheduler.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_scheduler.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_mesh_info_bak.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_mesh_info_bak.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_select.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\select.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_white_radius_bg2.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\white_radius_bg2.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_json_preview.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_json_preview.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_more.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\more.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_address_1.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_address_1.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_main_bg_click.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\main_bg_click.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_fragment_device.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\fragment_device.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_online_device.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_online_device.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ok.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable-xhdpi\\ok.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_key_bind.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_key_bind.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_address_2.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_address_2.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_fragment_device_setting_group.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\fragment_device_setting_group.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_log_info.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_log_info.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_debug.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_debug.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_fragment_device_group.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\fragment_device_group.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bound_key.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_bound_key.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mesh_ota.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_mesh_ota.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_ota.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\activity_device_ota.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_close.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\menu_share_scan.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\menu\\share_scan.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_mesh_key_select.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_mesh_key_select.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_refresh.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_refresh.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_update.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\drawable\\ic_update.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_device_list.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_device_list.xml"
+    },
+    {
+        "merged": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\build\\intermediates\\res\\merged\\debug\\layout_item_selectable.xml.flat",
+        "source": "D:\\WORKING_DIRECTORY\\TelinkBleMesh_3.3.2\\TelinkBleMeshDemo\\src\\main\\res\\layout\\item_selectable.xml"
+    }
+]
