@@ -52,8 +52,8 @@ public class DeviceSettingActivity extends BaseActivity implements EventListener
     DeviceInfo deviceInfo;
     private Handler delayHandler = new Handler();
     private View ll_offline;
-    private String[] titles = {"Ctrl", "Group", "Timers", "Adjoin", "Set"};
-    private Fragment[] tabFragments = new Fragment[5];
+    private String[] titles = {"Group", "Timers", "Adjoin", "Ctl"};
+    private Fragment[] tabFragments = new Fragment[4];
 
 
     @Override
@@ -99,8 +99,8 @@ public class DeviceSettingActivity extends BaseActivity implements EventListener
         Bundle bundle = new Bundle();
         bundle.putInt("address", deviceInfo.meshAddress);
 
-        Fragment controlFragment = new DeviceControlFragment();
-        controlFragment.setArguments(bundle);
+        /*Fragment controlFragment = new DeviceControlFragment();
+        controlFragment.setArguments(bundle);*/
 
         Fragment groupFragment = new DeviceGroupFragment();
         groupFragment.setArguments(bundle);
@@ -114,11 +114,11 @@ public class DeviceSettingActivity extends BaseActivity implements EventListener
         Fragment settingFragment = new DeviceSettingFragment();
         settingFragment.setArguments(bundle);
 
-        tabFragments[0] = controlFragment;
-        tabFragments[1] = groupFragment;
-        tabFragments[2] = timerFragment;
-        tabFragments[3] = adjoinFragment;
-        tabFragments[4] = settingFragment;
+        //tabFragments[0] = controlFragment;
+        tabFragments[0] = groupFragment;
+        tabFragments[1] = timerFragment;
+        tabFragments[2] = adjoinFragment;
+        tabFragments[3] = settingFragment;
 
 
         TabLayout tabLayout = findViewById(R.id.tab_device_setting);

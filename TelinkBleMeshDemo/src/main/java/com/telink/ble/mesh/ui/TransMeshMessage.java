@@ -26,6 +26,15 @@ public class TransMeshMessage {
         MeshService.getInstance().sendMeshMessage(meshMessage);
     }
 
+    public void DeviceReSet(int address) {
+        byte[] params = ByteBuffer.allocate(2).order(ByteOrder.LITTLE_ENDIAN)
+                .put((byte) 2)
+                .put((byte) 0x18)
+                .array();
+        MeshMessage meshMessage = createVendorMessage(address, MeshMessage.OPCODE_INVALID, params, -1);
+        MeshService.getInstance().sendMeshMessage(meshMessage);
+    }
+
     public void SyncDeviceSystemTime(int address) {
         Time t = new Time();
         t.setToNow();
@@ -154,6 +163,15 @@ public class TransMeshMessage {
         MeshService.getInstance().sendMeshMessage(meshMessage);
     }
 
+    public void SetDeviceLum(int address, int progress) {
+        byte[] params = ByteBuffer.allocate(3).order(ByteOrder.LITTLE_ENDIAN)
+                .put((byte) 3)
+                .put((byte) 0x0E)
+                .put((byte) progress)
+                .array();
+        MeshMessage meshMessage = createVendorMessage(address, MeshMessage.OPCODE_INVALID, params, -1);
+        MeshService.getInstance().sendMeshMessage(meshMessage);
+    }
     public void SetAdjoin(int address, int adjoinAddress, int opType) {
         int opCode = (opType == 1) ? 0x14 : 0x15;
         byte[] params = ByteBuffer.allocate(4).order(ByteOrder.LITTLE_ENDIAN)

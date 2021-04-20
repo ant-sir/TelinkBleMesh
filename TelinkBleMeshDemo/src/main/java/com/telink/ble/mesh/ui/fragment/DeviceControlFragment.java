@@ -48,6 +48,7 @@ import com.telink.ble.mesh.model.MeshInfo;
 import com.telink.ble.mesh.model.DeviceInfo;
 import com.telink.ble.mesh.model.NodeStatusChangedEvent;
 import com.telink.ble.mesh.model.UnitConvert;
+import com.telink.ble.mesh.ui.TransMeshMessage;
 import com.telink.ble.mesh.ui.adapter.SwitchListAdapter;
 import com.telink.ble.mesh.ui.widget.CompositionColorView;
 import com.telink.ble.mesh.util.MeshLogger;
@@ -275,6 +276,7 @@ public class DeviceControlFragment extends BaseFragment implements EventListener
                                 UnitConvert.lum2lightness(progress),
                                 false, 0);
                         MeshService.getInstance().sendMeshMessage(message);
+                        TransMeshMessage.getInstance().SetDeviceLum(deviceInfo.meshAddress, progress);
                     }
                 } else if (seekBar == sb_temp) {
                     deviceInfo.temp = progress;

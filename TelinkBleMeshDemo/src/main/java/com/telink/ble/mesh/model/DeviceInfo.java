@@ -142,7 +142,7 @@ public class DeviceInfo implements Serializable {
     public boolean selected = false;
 
     public int delay = 0;
-
+    public int light = 100;
     public int getDelay() {
         return delay;
     }

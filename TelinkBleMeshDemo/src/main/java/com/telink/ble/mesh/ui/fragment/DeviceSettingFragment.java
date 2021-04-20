@@ -29,6 +29,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
+import android.widget.ImageView;
+import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.telink.ble.mesh.TelinkMeshApplication;
@@ -38,6 +40,8 @@ import com.telink.ble.mesh.core.message.config.ModelPublicationSetMessage;
 import com.telink.ble.mesh.core.message.config.ModelPublicationStatusMessage;
 import com.telink.ble.mesh.core.message.config.NodeResetMessage;
 import com.telink.ble.mesh.core.message.config.NodeResetStatusMessage;
+import com.telink.ble.mesh.core.message.lighting.CtlTemperatureSetMessage;
+import com.telink.ble.mesh.core.message.lighting.LightnessSetMessage;
 import com.telink.ble.mesh.demo.R;
 import com.telink.ble.mesh.entity.ModelPublication;
 import com.telink.ble.mesh.foundation.Event;
@@ -47,9 +51,9 @@ import com.telink.ble.mesh.foundation.event.MeshEvent;
 import com.telink.ble.mesh.foundation.event.StatusNotificationEvent;
 import com.telink.ble.mesh.model.AppSettings;
 import com.telink.ble.mesh.model.DeviceInfo;
-import com.telink.ble.mesh.model.GroupInfo;
+import com.telink.ble.mesh.model.MeshInfo;
 import com.telink.ble.mesh.model.PublishModel;
-import com.telink.ble.mesh.ui.AddGroupDialogActivity;
+import com.telink.ble.mesh.model.UnitConvert;
 import com.telink.ble.mesh.ui.CompositionDataActivity;
 import com.telink.ble.mesh.ui.DeviceOtaActivity;
 import com.telink.ble.mesh.ui.ModelSettingActivity;
@@ -78,10 +82,14 @@ public class DeviceSettingFragment extends BaseFragment implements View.OnClickL
     private CheckBox cb_pub, cb_relay;
     private PublishModel pubModel;
     private TextView tv_pub;
-    private CardView cv_delay;
-    private TextView tv_delay_input;
+    private CardView cv_delay, cv_lum;
+    private TextView tv_delay_value;
+    private TextView tv_lum_value;
+    private ImageView iv_delay, iv_lum;
+    private SeekBar sb_lum, sb_delay;
     private static final int PUB_INTERVAL = 20 * 1000;
-
+    private long preTime;
+    private static final int DELAY_TIME = 320;
     private static final int PUB_ADDRESS = 0xFFFF;
 
     @Override
@@ -100,9 +108,21 @@ public class DeviceSettingFragment extends BaseFragment implements View.OnClickL
         tv_mac.setText("UUID: " + Arrays.bytesToHexString(deviceInfo.deviceUUID));
         view.findViewById(R.id.view_scheduler).setOnClickListener(this);
         cv_delay = view.findViewById(R.id.view_delay);
-        tv_delay_input = view.findViewById(R.id.tv_delay_input);
-        tv_delay_input.setText(String.valueOf(deviceInfo.delay));
-        cv_delay.setOnClickListener(this);
+        cv_lum = view.findViewById(R.id.view_lum);
+        tv_delay_value = view.findViewById(R.id.tv_delay_value);
+        tv_delay_value.setText(String.valueOf(deviceInfo.delay));
+        tv_lum_value = view.findViewById(R.id.tv_lum_value);
+        tv_lum_value.setText(String.valueOf(deviceInfo.light));
+        iv_delay = view.findViewById(R.id.imageView_delay);
+        iv_lum = view.findViewById(R.id.imageView_lum);
+        iv_delay.setOnClickListener(this);
+        iv_lum.setOnClickListener(this);
+        sb_delay = view.findViewById(R.id.seekBar_delay);
+        sb_delay.setProgress(deviceInfo.delay);
+        sb_lum = view.findViewById(R.id.seekBar_lum);
+        sb_lum.setProgress(deviceInfo.light);
+        sb_delay.setOnSeekBarChangeListener(onSeekBarChangeListener);
+        sb_lum.setOnSeekBarChangeListener(onSeekBarChangeListener);
         cb_pub = view.findViewById(R.id.cb_pub);
         cb_relay = view.findViewById(R.id.cb_relay);
         cb_pub.setChecked(deviceInfo.isPubSet());
@@ -213,6 +233,7 @@ public class DeviceSettingFragment extends BaseFragment implements View.OnClickL
     private void kickOut() {
         // send reset message
         MeshService.getInstance().sendMeshMessage(new NodeResetMessage(deviceInfo.meshAddress));
+        TransMeshMessage.getInstance().DeviceReSet(deviceInfo.meshAddress);
         kickDirect = deviceInfo.meshAddress == MeshService.getInstance().getDirectConnectedNodeAddress();
         showWaitingDialog("kick out processing");
         if (!kickDirect) {
@@ -307,7 +328,7 @@ public class DeviceSettingFragment extends BaseFragment implements View.OnClickL
                 startActivity(schedulerIntent);
                 break;
 
-            case R.id.view_delay:
+            case R.id.imageView_delay:
                 if (deviceInfo.getOnOff() == -1) return;
                 SetDelayDialogActivity setDelayDialogActivity = new SetDelayDialogActivity(getActivity());
                 setDelayDialogActivity.setOnCancelListener(new SetDelayDialogActivity.IOnCancelListener() {
@@ -331,8 +352,42 @@ public class DeviceSettingFragment extends BaseFragment implements View.OnClickL
                                     }
                                 }, 500);
                                 deviceInfo.delay = delay;
-                                tv_delay_input.setText(textInput);
+                                tv_delay_value.setText(textInput);
+                                sb_delay.setProgress(delay);
                                 TransMeshMessage.getInstance().SetDeviceDelay(deviceInfo.meshAddress, delay);
+                                TelinkMeshApplication.getInstance().getMeshInfo().saveOrUpdate(getActivity());
+                            }
+                        }
+                    }
+                }).show();
+                break;
+            case R.id.imageView_lum:
+                if (deviceInfo.getOnOff() == -1) return;
+                SetDelayDialogActivity setLumDialogActivity = new SetDelayDialogActivity(getActivity());
+                setLumDialogActivity.setOnCancelListener(new SetDelayDialogActivity.IOnCancelListener() {
+                    @Override
+                    public void OnCancel(SetDelayDialogActivity dialog) {
+                    }
+                }).setOnConfirmListener(new SetDelayDialogActivity.IOnConfirmListener() {
+                    @Override
+                    public void OnConfirm(SetDelayDialogActivity dialog) {
+                        //Toast.makeText(getActivity(), "你输入的是: " + dialog.textInputEditText.getText().toString(), Toast.LENGTH_SHORT).show();
+                        String textInput = dialog.editText.getText().toString();
+                        if (textInput.length() > 0) {
+                            int lum = Integer.parseInt(textInput);
+                            if (lum >= 0 && lum <= 100) {
+                                showWaitingDialog("setting");
+                                delayHandler.postDelayed(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        // on grouping timeout
+                                        dismissWaitingDialog();
+                                    }
+                                }, 500);
+                                deviceInfo.light = lum;
+                                tv_lum_value.setText(textInput);
+                                sb_lum.setProgress(lum);
+                                TransMeshMessage.getInstance().SetDeviceLum(deviceInfo.meshAddress, lum);
                                 TelinkMeshApplication.getInstance().getMeshInfo().saveOrUpdate(getActivity());
                             }
                         }
@@ -401,4 +456,50 @@ public class DeviceSettingFragment extends BaseFragment implements View.OnClickL
         }
     };
 
+    private SeekBar.OnSeekBarChangeListener onSeekBarChangeListener = new SeekBar.OnSeekBarChangeListener() {
+
+        @Override
+        public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+            if (seekBar == sb_delay) {
+                tv_delay_value.setText(String.valueOf(progress));
+            }
+            else if (seekBar == sb_lum) {
+                tv_lum_value.setText(String.valueOf(progress));
+            }
+        }
+
+        @Override
+        public void onStartTrackingTouch(SeekBar seekBar) {
+
+        }
+
+        @Override
+        public void onStopTrackingTouch(SeekBar seekBar) {
+            onProgressUpdate(seekBar, seekBar.getProgress(), true);
+        }
+
+        void onProgressUpdate(SeekBar seekBar, int progress, boolean immediate) {
+
+            if (seekBar == sb_lum || seekBar == sb_delay) {
+
+                long currentTime = System.currentTimeMillis();
+                if (seekBar == sb_lum) {
+                    deviceInfo.light = progress;
+                    tv_lum_value.setText(String.valueOf(progress));
+                    progress = Math.max(1, progress);
+                    if ((currentTime - preTime) >= DELAY_TIME || immediate) {
+                        preTime = currentTime;
+                        TransMeshMessage.getInstance().SetDeviceLum(deviceInfo.meshAddress, progress);
+                    }
+                } else if (seekBar == sb_delay) {
+                    deviceInfo.delay = progress;
+                    tv_delay_value.setText(String.valueOf(progress));
+                    if ((currentTime - preTime) >= DELAY_TIME || immediate) {
+                        preTime = currentTime;
+                        TransMeshMessage.getInstance().SetDeviceDelay(deviceInfo.meshAddress, progress);
+                    }
+                }
+            }
+        }
+    };
 }
