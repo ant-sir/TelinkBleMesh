@@ -93,7 +93,7 @@ public class DeviceProvisionListAdapter extends BaseRecyclerViewAdapter<DevicePr
         NetworkingDevice device = mDevices.get(position);
 
         DeviceInfo nodeInfo = device.nodeInfo;
-        int iconRes = R.drawable.ic_bulb_on;
+        int iconRes = R.drawable.ic_aeroplane_24;
         if (nodeInfo.compositionData != null && nodeInfo.compositionData.lowPowerSupport()) {
             iconRes = R.drawable.ic_low_power;
         }

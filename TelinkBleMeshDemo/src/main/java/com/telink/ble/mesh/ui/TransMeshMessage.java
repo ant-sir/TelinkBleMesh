@@ -35,6 +35,14 @@ public class TransMeshMessage {
         MeshService.getInstance().sendMeshMessage(meshMessage);
     }
 
+    public void SendDeviceByte(int address, byte n) {
+        byte[] params = ByteBuffer.allocate(1).order(ByteOrder.LITTLE_ENDIAN)
+                .put(n)
+                .array();
+        MeshMessage meshMessage = createVendorMessage(address, MeshMessage.OPCODE_INVALID, params, -1);
+        MeshService.getInstance().sendMeshMessage(meshMessage);
+    }
+
     public void SyncDeviceSystemTime(int address) {
         Time t = new Time();
         t.setToNow();

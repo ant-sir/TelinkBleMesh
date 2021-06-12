@@ -40,16 +40,16 @@ public class IconGenerator {
             return R.drawable.ic_low_power;
         }else {
             if (onOff == DeviceInfo.ON_OFF_STATE_OFFLINE) {
-                return R.drawable.ic_bulb_offline;
+                return R.drawable.ic_aeroplane_offline;
             } else if (onOff == DeviceInfo.ON_OFF_STATE_OFF) {
-                return R.drawable.ic_bulb_off;
+                return R.drawable.ic_aeroplane_offline;
             } else {
             /*if (deviceInfo.lum == 100) {
                 return R.drawable.ic_bulb_on;
             } else {
                 return R.drawable.ic_bulb_on_half;
             }*/
-                return R.drawable.ic_bulb_on;
+                return R.drawable.ic_aeroplane;
             }
         }
     }
@@ -57,16 +57,16 @@ public class IconGenerator {
     public static int generateDeviceIconRes(int onOff) {
 //        return R.drawable.ic_low_power;
         if (onOff == -1) {
-            return R.drawable.ic_bulb_offline;
+            return R.drawable.ic_aeroplane_offline;
         } else if (onOff == 0) {
-            return R.drawable.ic_bulb_off;
+            return R.drawable.ic_aeroplane_offline;
         } else {
             /*if (deviceInfo.lum == 100) {
                 return R.drawable.ic_bulb_on;
             } else {
                 return R.drawable.ic_bulb_on_half;
             }*/
-            return R.drawable.ic_bulb_on;
+            return R.drawable.ic_aeroplane;
         }
     }
 

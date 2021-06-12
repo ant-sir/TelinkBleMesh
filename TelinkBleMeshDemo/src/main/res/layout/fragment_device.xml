@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBg"
     android:orientation="vertical">
 
-    <include layout="@layout/header"/>
     <include layout="@layout/title" />
 
     <TextView
@@ -25,7 +25,8 @@
         android:id="@+id/ll_cmd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:visibility="gone">
 
         <Button
             android:id="@+id/tv_on"
@@ -33,7 +34,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:singleLine="true"
-            android:text="All On" />
+            android:text="All On"
+            tools:visibility="gone" />
 
 
         <Button
@@ -42,7 +44,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:singleLine="true"
-            android:text="All Off" />
+            android:text="All Off"
+            tools:visibility="gone" />
 
         <Button
             android:id="@+id/tv_cmd"
@@ -70,7 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:visibility="visible">
+        android:visibility="gone">
 
         <Button
             android:id="@+id/tv_sync_time"
@@ -78,7 +81,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:singleLine="true"
-            android:text="SYNC TIME" />
+            android:text="SYNC TIME"
+            tools:visibility="gone" />
 
         <Button
             android:id="@+id/tv_set_timer"
@@ -86,7 +90,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:singleLine="true"
-            android:text="SET TIMER" />
+            android:text="SET TIMER"
+            tools:visibility="gone" />
 
         <TextView
             android:id="@+id/tv_clear"

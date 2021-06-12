@@ -24,6 +24,7 @@ package com.telink.ble.mesh.ui;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.telink.ble.mesh.SharedPreferenceHelper;
@@ -81,12 +82,13 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
         fm = getSupportFragmentManager();
         deviceFragment = new DeviceFragment();
-        groupFragment = new GroupFragment();
-        settingFragment = new SettingFragment();
+        //groupFragment = new GroupFragment();
+        //settingFragment = new SettingFragment();
         fm.beginTransaction()
-                .add(R.id.fl_container, deviceFragment).add(R.id.fl_container, groupFragment).add(R.id.fl_container, settingFragment)
-                .show(deviceFragment).hide(groupFragment).hide(settingFragment)
+                .add(R.id.fl_container, deviceFragment)//.add(R.id.fl_container, groupFragment).add(R.id.fl_container, settingFragment)
+                .show(deviceFragment)//.hide(groupFragment).hide(settingFragment)
                 .commit();
+        bottomNavigationView.setVisibility(View.GONE);
     }
 
     private void startMeshService() {
@@ -177,12 +179,12 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
             case R.id.item_device:
                 fm.beginTransaction().hide(groupFragment).hide(settingFragment).show(deviceFragment).commit();
                 break;
-            case R.id.item_group:
-                fm.beginTransaction().hide(deviceFragment).hide(settingFragment).show(groupFragment).commit();
-                break;
-            case R.id.item_setting:
-                fm.beginTransaction().hide(deviceFragment).hide(groupFragment).show(settingFragment).commit();
-                break;
+//            case R.id.item_group:
+//                fm.beginTransaction().hide(deviceFragment).hide(settingFragment).show(groupFragment).commit();
+//                break;
+//            case R.id.item_setting:
+//                fm.beginTransaction().hide(deviceFragment).hide(groupFragment).show(settingFragment).commit();
+//                break;
 
         }
         return true;

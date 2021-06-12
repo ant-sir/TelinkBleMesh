@@ -22,6 +22,7 @@
 
 package com.telink.ble.mesh.ui.fragment;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -33,6 +34,7 @@ import android.widget.TextView;
 
 import com.telink.ble.mesh.SharedPreferenceHelper;
 import com.telink.ble.mesh.TelinkMeshApplication;
+import com.telink.ble.mesh.core.message.config.NodeResetMessage;
 import com.telink.ble.mesh.core.message.generic.OnOffGetMessage;
 import com.telink.ble.mesh.core.message.generic.OnOffSetMessage;
 import com.telink.ble.mesh.demo.R;
@@ -52,6 +54,7 @@ import com.telink.ble.mesh.ui.FastProvisionActivity;
 import com.telink.ble.mesh.ui.KeyBindActivity;
 import com.telink.ble.mesh.ui.LogActivity;
 import com.telink.ble.mesh.ui.MainActivity;
+import com.telink.ble.mesh.ui.OperatorActivity;
 import com.telink.ble.mesh.ui.RemoteProvisionActivity;
 import com.telink.ble.mesh.ui.TimerActivity;
 import com.telink.ble.mesh.ui.TransMeshMessage;
@@ -63,6 +66,7 @@ import com.telink.ble.mesh.util.MeshLogger;
 
 import java.util.List;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -77,6 +81,9 @@ public class DeviceFragment extends BaseFragment implements View.OnClickListener
     private OnlineDeviceListAdapter mAdapter;
     private List<DeviceInfo> mDevices;
     private Handler mCycleHandler = new Handler();
+    private AlertDialog confirmDialog;
+    private DeviceInfo deviceInfo;
+    private Handler delayHandler = new Handler();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -152,7 +159,7 @@ public class DeviceFragment extends BaseFragment implements View.OnClickListener
         mDevices = TelinkMeshApplication.getInstance().getMeshInfo().nodes;
         mAdapter = new OnlineDeviceListAdapter(getActivity(), mDevices);
 
-        gv_devices.setLayoutManager(new GridLayoutManager(getActivity(), 4));
+        gv_devices.setLayoutManager(new GridLayoutManager(getActivity(), 1));
         gv_devices.setAdapter(mAdapter);
 
         mAdapter.setOnItemClickListener(new BaseRecyclerViewAdapter.OnItemClickListener() {
@@ -160,16 +167,31 @@ public class DeviceFragment extends BaseFragment implements View.OnClickListener
             public void onItemClick(int position) {
                 if (mDevices.get(position).getOnOff() == -1) return;
 
-                int onOff = 0;
-                if (mDevices.get(position).getOnOff() == 0) {
-                    onOff = 1;
+                DeviceInfo deviceInfo = TelinkMeshApplication.getInstance().getMeshInfo().getDeviceByMeshAddress(mDevices.get(position).meshAddress);
+                if (deviceInfo == null) {
+                    toastMsg("device info null!");
+                    return;
                 }
-
-                int address = mDevices.get(position).meshAddress;
-                int appKeyIndex = TelinkMeshApplication.getInstance().getMeshInfo().getDefaultAppKeyIndex();
-                OnOffSetMessage onOffSetMessage = OnOffSetMessage.getSimple(address, appKeyIndex, onOff, !AppSettings.ONLINE_STATUS_ENABLE, !AppSettings.ONLINE_STATUS_ENABLE ? 1 : 0);
-                MeshService.getInstance().sendMeshMessage(onOffSetMessage);
-                TransMeshMessage.getInstance().SetOnOff(address, onOff);
+                MeshLogger.d("deviceKey: " + (Arrays.bytesToHexString(deviceInfo.deviceKey)));
+                Intent intent;
+                if (deviceInfo.bound) {
+                    intent = new Intent(getActivity(), OperatorActivity.class);
+                } else {
+                    intent = new Intent(getActivity(), KeyBindActivity.class);
+                }
+                intent.putExtra("deviceAddress", deviceInfo.meshAddress);
+                startActivity(intent);
+                return;
+//                int onOff = 0;
+//                if (mDevices.get(position).getOnOff() == 0) {
+//                    onOff = 1;
+//                }
+//
+//                int address = mDevices.get(position).meshAddress;
+//                int appKeyIndex = TelinkMeshApplication.getInstance().getMeshInfo().getDefaultAppKeyIndex();
+//                OnOffSetMessage onOffSetMessage = OnOffSetMessage.getSimple(address, appKeyIndex, onOff, !AppSettings.ONLINE_STATUS_ENABLE, !AppSettings.ONLINE_STATUS_ENABLE ? 1 : 0);
+//                MeshService.getInstance().sendMeshMessage(onOffSetMessage);
+//                TransMeshMessage.getInstance().SetOnOff(address, onOff);
 //                MeshService.getInstance().setOnOff(mDevices.get(position).meshAddress, onOff, !AppSettings.ONLINE_STATUS_ENABLE, !AppSettings.ONLINE_STATUS_ENABLE ? 1 : 0, 0, (byte) 0, null);
             }
         });
@@ -177,20 +199,21 @@ public class DeviceFragment extends BaseFragment implements View.OnClickListener
         mAdapter.setOnItemLongClickListener(new BaseRecyclerViewAdapter.OnItemLongClickListener() {
             @Override
             public boolean onLongClick(int position) {
-                DeviceInfo deviceInfo = TelinkMeshApplication.getInstance().getMeshInfo().getDeviceByMeshAddress(mDevices.get(position).meshAddress);
+                deviceInfo = TelinkMeshApplication.getInstance().getMeshInfo().getDeviceByMeshAddress(mDevices.get(position).meshAddress);
                 if (deviceInfo == null) {
                     toastMsg("device info null!");
                     return false;
                 }
                 MeshLogger.d("deviceKey: " + (Arrays.bytesToHexString(deviceInfo.deviceKey)));
-                Intent intent;
-                if (deviceInfo.bound) {
-                    intent = new Intent(getActivity(), DeviceSettingActivity.class);
-                } else {
-                    intent = new Intent(getActivity(), KeyBindActivity.class);
-                }
-                intent.putExtra("deviceAddress", deviceInfo.meshAddress);
-                startActivity(intent);
+                showKickConfirmDialog();
+//                Intent intent;
+//                if (deviceInfo.bound) {
+//                    intent = new Intent(getActivity(), DeviceSettingActivity.class);
+//                } else {
+//                    intent = new Intent(getActivity(), KeyBindActivity.class);
+//                }
+//                intent.putExtra("deviceAddress", deviceInfo.meshAddress);
+//                startActivity(intent);
                 return false;
             }
 
@@ -201,6 +224,52 @@ public class DeviceFragment extends BaseFragment implements View.OnClickListener
         TelinkMeshApplication.getInstance().addEventListener(MeshEvent.EVENT_TYPE_MESH_RESET, this);
         TelinkMeshApplication.getInstance().addEventListener(NodeStatusChangedEvent.EVENT_TYPE_NODE_STATUS_CHANGED, this);
     }
+
+    private void showKickConfirmDialog() {
+        if (confirmDialog == null) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+            builder.setCancelable(true);
+            builder.setTitle("Warn");
+            builder.setMessage("Confirm to remove device?");
+            builder.setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    kickOut();
+                }
+            });
+
+            builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    dialog.dismiss();
+                }
+            });
+            confirmDialog = builder.create();
+        }
+        confirmDialog.show();
+    }
+
+    private void kickOut() {
+        // send reset message
+        MeshService.getInstance().sendMeshMessage(new NodeResetMessage(deviceInfo.meshAddress));
+        showWaitingDialog("kick out processing");
+        delayHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                onKickOutFinish();
+            }
+        }, 3 * 1000);
+    }
+
+    private void onKickOutFinish() {
+        delayHandler.removeCallbacksAndMessages(null);
+        MeshService.getInstance().removeDevice(deviceInfo.meshAddress);
+        TelinkMeshApplication.getInstance().getMeshInfo().removeDeviceByMeshAddress(deviceInfo.meshAddress);
+        TelinkMeshApplication.getInstance().getMeshInfo().saveOrUpdate(getActivity());
+        dismissWaitingDialog();
+        mAdapter.notifyDataSetChanged();
+    }
+
 
     @Override
     public void onResume() {

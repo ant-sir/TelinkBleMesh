@@ -9,18 +9,6 @@
         android:title="Device"
         app:showAsAction="ifRoom" />
 
-    <item
-        android:id="@+id/item_group"
-        android:icon="@drawable/ic_group"
-        android:orderInCategory="100"
-        android:title="Group"
-        app:showAsAction="ifRoom" />
 
-    <item
-        android:id="@+id/item_setting"
-        android:icon="@drawable/ic_setting"
-        android:orderInCategory="100"
-        android:title="Setting"
-        app:showAsAction="ifRoom" />
 
 </menu>
